@@ -815,3 +815,21 @@ js_config:
   Script: jd_shopDraw.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_daily_activityUrl
+  KeyWord:
+  - - jd_daily_activityUrl
+  Name: 【Faker】店铺左侧刮刮乐
+  Script: jd_daily.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_drawShopGift_argv
+  KeyWord:
+  - - jd_drawShopGift_argv
+  Name: 【Faker】店铺关注有礼
+  Script: jd_drawShopGift.js
+  TimeOut: 0
+  Wait: 2
