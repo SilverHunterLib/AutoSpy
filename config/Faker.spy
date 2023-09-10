@@ -851,3 +851,12 @@ js_config:
   Script: jd_lzkj_loreal_draw.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_completeInfoActivity_activityUrl
+  KeyWord:
+  - - jd_completeInfoActivity_activityUrl
+  Name: 【Faker】完善信息有礼（超级会员）
+  Script: jd_completeInfoActivity.js
+  TimeOut: 0
+  Wait: 2
