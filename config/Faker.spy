@@ -860,3 +860,12 @@ js_config:
   Script: jd_completeInfoActivity.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_wxSign_sign_lzkj_Ids
+  KeyWord:
+  - - jd_wxSign_sign_lzkj_Ids
+  Name: 【Faker】店铺签到（超级无线/超级会员）
+  Script: jd_wxSign.js
+  TimeOut: 0
+  Wait: 2
