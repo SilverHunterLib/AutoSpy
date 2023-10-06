@@ -869,3 +869,48 @@ js_config:
   Script: jd_wxSign.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_dailyGrabs_url
+  KeyWord:
+  - - jd_lzkj_loreal_dailyGrabs_url
+  Name: 【Faker】每日抢好礼（超级无线）
+  Script: jd_lzkj_loreal_dailyGrabs.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_daySign_url
+  KeyWord:
+  - - jd_lzkj_loreal_daySign_url
+  Name: 【Faker】签到有礼（超级无线）
+  Script: jd_lzkj_loreal_daySign.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_organizeTeam_url
+  KeyWord:
+  - - jd_lzkj_loreal_organizeTeam_url
+  Name: 【Faker】组队瓜分奖品（超级无线）
+  Script: jd_lzkj_loreal_organizeTeam.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_know_url
+  KeyWord:
+  - - jd_lzkj_loreal_know_url
+  Name: 【Faker】知识超人（超级无线）
+  Script: jd_lzkj_loreal_know.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_lkFollowShop_url
+  KeyWord:
+  - - jd_lzkj_loreal_lkFollowShop_url
+  Name: 【Faker】关注店铺有礼（超级无线）
+  Script: jd_lzkj_loreal_lkFollowShop.js
+  TimeOut: 0
+  Wait: 2
