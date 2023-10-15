@@ -4,6 +4,8 @@ js_config:
   Env: jd_wxCartKoi_activityId
   KeyWord:
   - - jd_wxCartKoi_activityId
+  - - jd_wx_CartKoi
+  - - jd_wx_cartKoi_id
   Name: 【云上】购物车锦鲤
   Script: jd_wxCartKoi.js
   TimeOut: 0
@@ -801,6 +803,8 @@ js_config:
   Env: jd_lzkj_loreal_share_url
   KeyWord:
   - - jd_lzkj_loreal_share_url
+  - - jd_loreal_lzkj_sharePolitely_id
+  - - jd_lz_share
   Name: 【Faker】分享有礼欧莱雅
   Script: jd_lzkj_loreal_share.js
   TimeOut: 0
@@ -935,5 +939,23 @@ js_config:
   - - jd_lzkj_loreal_shopGift_url
   Name: 【Faker】关注店铺有礼（超级无线）
   Script: jd_lzkj_loreal_shopGift.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxUnPackingActivity_activityId
+  KeyWord:
+  - - jd_wxUnPackingActivity_activityId
+  Name: 【Faker】关注店铺有礼（超级无线）
+  Script: jd_wxUnPackingActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_wxGameActivity_activityUrl
+  KeyWord:
+  - - jd_wxGameActivity_activityUrl
+  Name: 【Faker】关注店铺有礼（超级无线）
+  Script: jd_wxGameActivity.js
   TimeOut: 0
   Wait: 2
