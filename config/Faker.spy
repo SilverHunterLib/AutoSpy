@@ -217,6 +217,7 @@ js_config:
   Env: DPQDTK
   KeyWord:
   - - DPQDTK
+  - - jd_shopSign_investigate_id
   Name: 【签到】店铺签到
   Script: jd_dpqd.js
   TimeOut: 0
@@ -957,5 +958,15 @@ js_config:
   - - jd_wxGameActivity_activityUrl
   Name: 【Faker】关注店铺有礼（超级无线）
   Script: jd_wxGameActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_pointExgBeans_activityUrl
+  KeyWord:
+  - - jd_pointExgBeans_activityUrl
+  - - jd_wx_pointExgBeans_id
+  Name: 【Faker】积分兑换京豆（超级会员）
+  Script: jd_pointExgBeans.js
   TimeOut: 0
   Wait: 2
