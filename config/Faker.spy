@@ -797,6 +797,7 @@ js_config:
   Env: jd_lzkj_loreal_perfectInfo_url
   KeyWord:
   - - jd_lzkj_loreal_perfectInfo_url
+  - - jd_loreal_lzkj_perfectInfo_id
   Name: 【Faker】完善有礼欧莱雅
   Script: jd_lzkj_loreal_perfectInfo.js
   TimeOut: 0
@@ -970,5 +971,26 @@ js_config:
   - - jd_wx_pointExgBeans_id
   Name: 【Faker】积分兑换京豆（超级会员）
   Script: jd_pointExgBeans.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_sign_url
+  KeyWord:
+  - - jd_lzkj_loreal_sign_url
+  - - jd_loreal_lzkj_sign_id
+  Name: 【Faker】签到抽奖（lzkj_loreal）
+  Script: jd_lzkj_loreal_sign.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_pointsExchange_url
+  KeyWord:
+  - - jd_lzkj_loreal_pointsExchange_url
+  - - jd_loreal_lzkj_pointsExchange_id
+  - - jd_lz_exchange
+  Name: 【Faker】积分兑换（超级无线）
+  Script: jd_lzkj_loreal_pointsExchange.js
   TimeOut: 0
   Wait: 2
