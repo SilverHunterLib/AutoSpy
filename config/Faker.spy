@@ -50,26 +50,13 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_cjhy_wxKnowledgeActivity_activityId
+  Env: jd_wxKnowledgeActivity_activityUrl
   KeyWord:
-  - - jd_cjwxKnowledgeActivity_activityId
-  - - jd_cjhy_wxKnowledgeActivity_activityId
   - - jd_wxKnowledgeActivity_activityUrl
-  RegularRules: 'cjhy@[\d|a-z]{32}@0'
-  Name: 【云上】CJ知识超人
-  Script: jd_cjhy_wxKnowledgeActivity.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_wxKnowledgeActivity_activityId
-  KeyWord:
-  - - jd_lzkj_wxKnowledgeActivity_activityId
-  - - jd_wxKnowledgeActivity_activityId
-  - - jd_wxKnowledgeActivity_activityUrl
-  Name: 【云上】LJ知识超人
-  RegularRules: 'lzkj@[\d|a-z]{32}@0'
-  Script: jd_lzkj_wxKnowledgeActivity.js
+  - - jd_wx_knowledge_id
+  - - jd_wx_Knowledge
+  Name: 【Faker】知识超人
+  Script: jd_wxKnowledgeActivity.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -112,26 +99,13 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_cjhy_wxCollectionActivityId
+  Env: jd_wxCollectionActivity_activityUrl
   KeyWord:
-  - - jd_cjhy_wxCollectionActivityId
   - - jd_wxCollectionActivity_activityUrl
   - - jd_wx_collection_id
   - - jd_wx_collection
   Name: 【抽奖】cjhy加购物车
-  RegularRules: 'cjhy@[\d|a-z]{32}@0'
-  Script: jd_cjhy_wxCollectionActivity.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_wxCollectionActivityId
-  KeyWord:
-  - - jd_lzkj_wxCollectionActivityId
-  - - jd_wxCollectionActivity_activityUrl
-  Name: 【抽奖】lzkj加购物车
-  RegularRules: 'lzkj@[\d|a-z]{32}@0'
-  Script: jd_lzkj_wxCollectionActivity.js
+  Script: jd_wxCollectionActivity.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -145,14 +119,12 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_wxShopFollowActivity_activityId
+  Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
-  - - jd_wxShopFollowActivity_activityId
   - - jd_wxShopFollowActivity_activityUrl
   - - jd_wx_shopFollow_id
   - - jd_wx_followshop
   Name: 【抽奖】关注店铺抽奖
-  RegularRules: '@[\d|a-z]{32}@0'
   Script: jd_wxShopFollowActivity.js
   TimeOut: 0
   Wait: 2
@@ -530,46 +502,24 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_cjhy_wxShopFollowActivity_activityId
+  Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
-  - - jd_cjhy_wxShopFollowActivity_activityId
   - - jd_wxShopFollowActivity_activityUrl
-  Name: 【Faker】cjhy关注店铺有礼
-  RegularRules: 'cjhy@[\d|a-z]{32}@0'
-  Script: jd_cjhy_wxShopFollowActivity.js
+  - - jd_wx_followshop
+  - - jd_wx_shopFollow_id
+  Name: 【Faker】关注店铺有礼
+  Script: jd_wxShopFollowActivity.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_wxShopFollowActivity_activityId
+  Env: jd_wxShopGift_activityUrl
   KeyWord:
-  - - jd_lzkj_wxShopFollowActivity_activityId
-  - - jd_wxShopFollowActivity_activityUrl
-  Name: 【Faker】lzkj关注店铺有礼
-  RegularRules: 'lzkj@[\d|a-z]{32}@0'
-  Script: jd_lzkj_wxShopFollowActivity.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_cjhy_wxShopGift_ids
-  KeyWord:
-  - - jd_cjhy_wxShopGift_ids
+  - - jd_wx_shopGift_id
   - - jd_wxShopGift_activityUrl
-  Name: 【Faker】cjhy店铺礼包
-  RegularRules: 'cjhy@[\d|a-z]{32}@0'
-  Script: jd_cjhy_wxShopGift.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_wxShopGift_ids
-  KeyWord:
-  - - jd_lzkj_wxShopGift_ids
-  - - jd_wxShopGift_activityUrl
-  Name: 【Faker】lzkj店铺礼包
-  RegularRules: 'lzkj@[\d|a-z]{32}@0'
-  Script: jd_lzkj_wxShopGift.js
+  - - jd_daily_follow
+  Name: 【Faker】店铺礼包特效
+  Script: jd_wxShopGift.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -623,12 +573,11 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_txzj_collect_item_id
+  Env: jd_collect_item_activityUrl
   KeyWord:
   - - jd_txzj_collect_item_id
   - - jd_collect_item_activityUrl
   Name: 【Faker】收藏大师关注有礼
-  RegularRules: '@[\d|a-zA-Z]{24}@0'
   Script: jd_txzj_collect_item.js
   TimeOut: 0
   Wait: 2
@@ -698,23 +647,21 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_txzj_cart_item_id
+  Env: jd_cart_item_activityUrl
   KeyWord:
   - - jd_txzj_cart_item_id
   - - jd_cart_item_activityUrl
   Name: 【Faker】收藏大师加购有礼
-  RegularRules: '@[\d|a-zA-Z]{24}@0'
   Script: jd_txzj_cart_item.js
   TimeOut: 0
   Wait: 2
 - Container:
   - []
-  Env: jd_txzj_lottery_id
+  Env: jd_lottery_activityUrl
   KeyWord:
   - - jd_txzj_lottery_id
   - - jd_lottery_activityUrl
   Name: 【Faker】收藏大师幸运抽奖
-  RegularRules: '@[\d|a-zA-Z]{24}@0'
   Script: jd_txzj_lottery.js
   TimeOut: 0
   Wait: 2
