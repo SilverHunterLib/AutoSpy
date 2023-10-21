@@ -177,6 +177,102 @@ js_config:
   Wait: 2
 - Container:
   - []
+  Disable: 0
+  Env: M_WX_LUCK_DRAW_URL
+  KeyWord:
+  - - M_WX_LUCK_DRAW_URL
+  Name: 【M系】幸运抽奖
+  OverdueTime: 1800
+  Script: m_jd_wx_luckDraw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
+  Env: M_WX_ADD_CART_URL
+  KeyWord:
+  - - M_WX_ADD_CART_URL
+  Name: 【M系】加购有礼
+  OverdueTime: 1800
+  Script: m_jd_wx_addCart.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
+  Env: M_WX_COLLECT_CARD_URL
+  KeyWord:
+  - - M_WX_COLLECT_CARD_URL
+  Name: 【M系】集卡抽奖
+  OverdueTime: 1800
+  Script: m_jd_wx_collectCard.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
+  Env: M_WX_CENTER_DRAW_URL
+  KeyWord:
+  - - M_WX_CENTER_DRAW_URL
+  Name: 【M系】老虎机抽奖
+  OverdueTime: 1800
+  Script: m_jd_wx_centerDraw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
+  Env: M_FAV_SHOP_ARGV
+  KeyWord:
+  - - M_FAV_SHOP_ARGV
+  Name: 【M系】收藏有礼
+  OverdueTime: 1800
+  Script: m_jd_fav_shop_gift.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Disable: 0
+  Env: M_FOLLOW_SHOP_ARGV
+  KeyWord:
+  - - M_FOLLOW_SHOP_ARGV
+  Name: 【M系】关注有礼
+  OverdueTime: 1800
+  Script: m_jd_follow_shop.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: M_WX_SHOP_GIFT_URL
+  KeyWord:
+  - - M_WX_SHOP_GIFT_URL
+  Name: 【M系】关注有礼无线
+  OverdueTime: 1800
+  Script: m_jd_wx_shopGift.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: M_WX_FOLLOW_DRAW_URL
+  KeyWord:
+  - - M_WX_FOLLOW_DRAW_URL
+  Name: 【M系】关注抽奖
+  OverdueTime: 1800
+  Script: m_jd_wx_followDraw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: M_WX_BUILD_DRAW_URL
+  KeyWord:
+  - - M_WX_BUILD_DRAW_URL
+  Name: 【M系】盖楼领奖
+  OverdueTime: 1800
+  Script: m_jd_wx_buildDraw.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
   Env: jinggengInviteJoin
   KeyWord:
   - - jinggengInviteJoin
@@ -247,6 +343,24 @@ js_config:
   - - jd_completeInfoActivity_activityId
   Name: 【船长】完善信息有礼
   Script: jd_wxCompleteInfo.py
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: M_WX_WDZ_ID
+  KeyWord:
+  - - M_WX_WDZ_ID
+  Name: 【M系列】微定制
+  Script: m_jd_wx_microDz.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: M_WX_SECOND_DRAW_URL
+  KeyWord:
+  - - M_WX_SECOND_DRAW_URL
+  Name: 【M系列】读秒拼手速
+  Script: m_jd_wx_secondDraw.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -493,6 +607,24 @@ js_config:
   - - jd_cjhy_completeInfoActivity_Ids
   Name: 【Faker】完善信息有礼
   Script: jd_cjhy_completeInfoActivity.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: M_WX_SHARE_URL
+  KeyWord:
+  - - M_WX_SHARE_URL
+  Name: 【Faker】M分享有礼
+  Script: m_jd_wx_share.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: M_WX_TEAM_URL
+  KeyWord:
+  - - M_WX_TEAM_URL
+  Name: 【Faker】M组队瓜分
+  Script: m_jd_wx_team.js
   TimeOut: 0
   Wait: 2
 - Container:
