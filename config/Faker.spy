@@ -12,9 +12,10 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: WXGAME_ACT_ID
+  Env: jd_wxgame_activityId
   KeyWord:
   - - WXGAME_ACT_ID
+  - - jd_wxgame_activityId
   Name: 【云上】通用游戏任务
   Script: jd_wxgame.js
   TimeOut: 0
