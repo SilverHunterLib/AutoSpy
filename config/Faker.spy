@@ -946,3 +946,26 @@ js_config:
   Script: jd_lzkj_loreal_inviteFollowShop.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_followGoods_url
+  KeyWord:
+  - - jd_lzkj_loreal_followGoods_url
+  - - jd_loreal_lzkj_followGoods_id
+  - - jd_lz_followGoods
+  Name: 【Faker】关注商品有礼（超级无线）
+  Script: jd_lzkj_loreal_followGoods.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_loreal_cart_url
+  KeyWord:
+  - - jd_lzkj_loreal_cart_url
+  - - jd_loreal_lzkj_collection_id
+  - - jd_lz_followGoods
+  - - jd_lz_collection
+  Name: 【Faker】加购有礼（超级无线）
+  Script: jd_lzkj_loreal_cart.js
+  TimeOut: 0
+  Wait: 2
