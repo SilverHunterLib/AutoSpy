@@ -723,27 +723,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_loreal_perfectInfo_url
-  KeyWord:
-  - - jd_lzkj_loreal_perfectInfo_url
-  - - jd_loreal_lzkj_perfectInfo_id
-  Name: 【Faker】完善有礼欧莱雅
-  Script: jd_lzkj_loreal_perfectInfo.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_share_url
-  KeyWord:
-  - - jd_lzkj_loreal_share_url
-  - - jd_loreal_lzkj_sharePolitely_id
-  - - jd_lz_share
-  Name: 【Faker】分享有礼欧莱雅
-  Script: jd_lzkj_loreal_share.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_shopSign_activityUrl
   KeyWord:
   - - jd_shopSign_activityUrl
@@ -792,16 +771,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_loreal_draw_url
-  KeyWord:
-  - - jd_lzkj_loreal_draw_url
-  - - jd_loreal_lzkj_draw_id
-  Name: 【Faker】幸运抽奖（超级无线）
-  Script: jd_lzkj_loreal_draw.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_completeInfoActivity_activityUrl
   KeyWord:
   - - jd_completeInfoActivity_activityUrl
@@ -816,62 +785,6 @@ js_config:
   - - jd_wxSign_sign_lzkj_Ids
   Name: 【Faker】店铺签到（超级无线/超级会员）
   Script: jd_wxSign.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_dailyGrabs_url
-  KeyWord:
-  - - jd_lzkj_loreal_dailyGrabs_url
-  - - jd_loreal_lzkj_dailyGrabs_id
-  Name: 【Faker】每日抢好礼（超级无线）
-  Script: jd_lzkj_loreal_dailyGrabs.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_daySign_url
-  KeyWord:
-  - - jd_lzkj_loreal_daySign_url
-  Name: 【Faker】签到有礼（超级无线）
-  Script: jd_lzkj_loreal_daySign.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_organizeTeam_url
-  KeyWord:
-  - - jd_lzkj_loreal_organizeTeam_url
-  - - jd_loreal_lzkj_organizeTeam_id
-  Name: 【Faker】组队瓜分奖品（超级无线）
-  Script: jd_lzkj_loreal_organizeTeam.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_know_url
-  KeyWord:
-  - - jd_lzkj_loreal_know_url
-  Name: 【Faker】知识超人（超级无线）
-  Script: jd_lzkj_loreal_know.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_lkFollowShop_url
-  KeyWord:
-  - - jd_lzkj_loreal_lkFollowShop_url
-  Name: 【Faker】关注店铺有礼（超级无线）
-  Script: jd_lzkj_loreal_lkFollowShop.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_shopGift_url
-  KeyWord:
-  - - jd_lzkj_loreal_shopGift_url
-  Name: 【Faker】关注店铺有礼（超级无线）
-  Script: jd_lzkj_loreal_shopGift.js
   TimeOut: 0
   Wait: 2
 - Container:
@@ -904,27 +817,6 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_loreal_sign_url
-  KeyWord:
-  - - jd_lzkj_loreal_sign_url
-  - - jd_loreal_lzkj_sign_id
-  Name: 【Faker】签到抽奖（lzkj_loreal）
-  Script: jd_lzkj_loreal_sign.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_lzkj_loreal_pointsExchange_url
-  KeyWord:
-  - - jd_lzkj_loreal_pointsExchange_url
-  - - jd_loreal_lzkj_pointsExchange_id
-  - - jd_lz_exchange
-  Name: 【Faker】积分兑换（超级无线）
-  Script: jd_lzkj_loreal_pointsExchange.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_wxMcLevelAndBirthGifts_activityUrl
   KeyWord:
   - - jd_wxMcLevelAndBirthGifts_activityUrl
@@ -937,35 +829,148 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: jd_lzkj_loreal_inviteFollowShop_url
+  Env: jd_lzkj_loreal_sign_url
   KeyWord:
-  - - jd_lzkj_loreal_inviteFollowShop_url
-  - - jd_loreal_lzkj_inviteFollowShop_id
-  - - jd_lz_followShop
-  Name: 【Faker】邀请关注店铺有礼（超级无线）
-  Script: jd_lzkj_loreal_inviteFollowShop.js
+  - - jd_lzkj_loreal_sign_url
+  - - jd_loreal_lzkj_sign_id
+  Name: 【Faker】签到抽奖（lzkj_loreal）
+  Script: jd_lzkj_loreal_sign.js
   TimeOut: 0
   Wait: 2
-- Container:
+  - Container:
   - []
-  Env: jd_lzkj_loreal_followGoods_url
+  Env: jd_lzkj_loreal_share_url
   KeyWord:
-  - - jd_lzkj_loreal_followGoods_url
-  - - jd_loreal_lzkj_followGoods_id
-  - - jd_lz_followGoods
-  Name: 【Faker】关注商品有礼（超级无线）
-  Script: jd_lzkj_loreal_followGoods.js
+  - - jd_lzkj_loreal_share_url
+  - - jd_loreal_lzkj_sharePolitely_id
+  - - jd_lz_share
+  Name: 【Faker】分享有礼欧莱雅
+  Script: jd_lzkj_loreal_share.js
   TimeOut: 0
   Wait: 2
-- Container:
+  - Container:
   - []
-  Env: jd_lzkj_loreal_cart_url
+  Env: jd_lzkj_loreal_invite_url
   KeyWord:
-  - - jd_lzkj_loreal_cart_url
-  - - jd_loreal_lzkj_collection_id
-  - - jd_lz_followGoods
-  - - jd_lz_collection
+  - - jd_lzkj_loreal_invite_url
+  Name: 【Faker】邀请有礼欧莱雅
+  Script: jd_lzkj_loreal_invite.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_jinggeng_floor_activityUrl
+  KeyWord:
+  - - jd_jinggeng_floor_activityUrl
+  Name: 【Faker】盖楼有礼（京耕）
+  Script: jd_jinggeng_floor.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_cart_url
+  KeyWord:
+  - - jd_lzkj_cart_url
   Name: 【Faker】加购有礼（超级无线）
-  Script: jd_lzkj_loreal_cart.js
+  Script: jd_lzkj_cart.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_dailyGrabs_url
+  KeyWord:
+  - - jd_lzkj_dailyGrabs_url
+  Name: 【Faker】每日抢好礼（超级无线）
+  Script: jd_lzkj_dailyGrabs.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_daySign_url
+  KeyWord:
+  - - jd_lzkj_daySign_url
+  Name: 【Faker】签到有礼（超级无线）
+  Script: jd_lzkj_daySign.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_draw_url
+  KeyWord:
+  - - jd_lzkj_draw_url
+  Name: 【Faker】幸运抽奖（超级无线）
+  Script: jd_lzkj_draw.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_followGoods_url
+  KeyWord:
+  - - jd_lzkj_followGoods_url
+  Name: 【Faker】关注商品有礼（超级无线）
+  Script: jd_lzkj_followGoods.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_inviteFollowShop_url
+  KeyWord:
+  - - jd_lzkj_inviteFollowShop_url
+  Name: 【Faker】邀请关注店铺有礼（超级无线）
+  Script: jd_lzkj_inviteFollowShop.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_know_url
+  KeyWord:
+  - - jd_lzkj_know_url
+  Name: 【Faker】知识超人（超级无线）
+  Script: jd_lzkj_know.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_lkFollowShop_url
+  KeyWord:
+  - - jd_lzkj_lkFollowShop_url
+  Name: 【Faker】关注店铺有礼（超级无线）
+  Script: jd_lzkj_lkFollowShop.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_organizeTeam_url
+  KeyWord:
+  - - jd_lzkj_organizeTeam_url
+  Name: 【Faker】组队瓜分奖品（超级无线）
+  Script: jd_lzkj_organizeTeam.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_perfectInfo_url
+  KeyWord:
+  - - jd_lzkj_perfectInfo_url
+  Name: 【Faker】完善有礼（超级无线）
+  Script: jd_lzkj_perfectInfo.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_pointsExchange.js
+  KeyWord:
+  - - jd_lzkj_pointsExchange.js
+  Name: 【Faker】积分兑换（超级无线）
+  Script: jd_lzkj_pointsExchange.js
+  TimeOut: 0
+  Wait: 2
+  - Container:
+  - []
+  Env: jd_lzkj_shopGift_url
+  KeyWord:
+  - - jd_lzkj_shopGift_url
+  Name: 【Faker】店铺礼包（超级无线）
+  Script: jd_lzkj_shopGift.js
   TimeOut: 0
   Wait: 2
