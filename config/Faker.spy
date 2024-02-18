@@ -837,7 +837,7 @@ js_config:
   Script: jd_lzkj_loreal_sign.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_loreal_share_url
   KeyWord:
@@ -848,7 +848,7 @@ js_config:
   Script: jd_lzkj_loreal_share.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_loreal_invite_url
   KeyWord:
@@ -857,7 +857,7 @@ js_config:
   Script: jd_lzkj_loreal_invite.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_jinggeng_floor_activityUrl
   KeyWord:
@@ -866,7 +866,7 @@ js_config:
   Script: jd_jinggeng_floor.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_cart_url
   KeyWord:
@@ -875,7 +875,7 @@ js_config:
   Script: jd_lzkj_cart.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_dailyGrabs_url
   KeyWord:
@@ -884,7 +884,7 @@ js_config:
   Script: jd_lzkj_dailyGrabs.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_daySign_url
   KeyWord:
@@ -893,7 +893,7 @@ js_config:
   Script: jd_lzkj_daySign.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_draw_url
   KeyWord:
@@ -902,7 +902,7 @@ js_config:
   Script: jd_lzkj_draw.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_followGoods_url
   KeyWord:
@@ -911,7 +911,7 @@ js_config:
   Script: jd_lzkj_followGoods.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_inviteFollowShop_url
   KeyWord:
@@ -920,7 +920,7 @@ js_config:
   Script: jd_lzkj_inviteFollowShop.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_know_url
   KeyWord:
@@ -929,7 +929,7 @@ js_config:
   Script: jd_lzkj_know.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_lkFollowShop_url
   KeyWord:
@@ -938,7 +938,7 @@ js_config:
   Script: jd_lzkj_lkFollowShop.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_organizeTeam_url
   KeyWord:
@@ -947,7 +947,7 @@ js_config:
   Script: jd_lzkj_organizeTeam.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_perfectInfo_url
   KeyWord:
@@ -956,7 +956,7 @@ js_config:
   Script: jd_lzkj_perfectInfo.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_pointsExchange.js
   KeyWord:
@@ -965,7 +965,7 @@ js_config:
   Script: jd_lzkj_pointsExchange.js
   TimeOut: 0
   Wait: 2
-  - Container:
+- Container:
   - []
   Env: jd_lzkj_shopGift_url
   KeyWord:
