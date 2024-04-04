@@ -12,16 +12,6 @@ js_config:
   Wait: 5
 - Container:
   - []
-  Env: jd_wxgame_activityId
-  KeyWord:
-  - - WXGAME_ACT_ID
-  - - jd_wxgame_activityId
-  Name: 【云上】通用游戏任务
-  Script: jd_wxgame.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_wxSecond_activityId
   KeyWord:
   - - jd_wxSecond_activityId
@@ -52,30 +42,10 @@ js_config:
   Wait: 2
 - Container:
   - []
-  Env: PKC_TXGZYL
-  KeyWord:
-  - - PKC_TXGZYL
-  Name: 【PKC】关注有礼-特效
-  Script: jd_txgzyl.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: PKC_GZYL
-  KeyWord:
-  - - PKC_GZYL
-  Name: 【PKC】关注有礼
-  Script: pkc_gzyl.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
   Env: jd_wxCollectionActivity_activityUrl
   KeyWord:
   - - jd_wxCollectionActivity_activityUrl
-  - - jd_wx_collection_id
-  - - jd_wx_collection
-  Name: 【抽奖】cjhy加购物车
+  Name: 【Faker】加购有礼
   Script: jd_wxCollectionActivity.js
   TimeOut: 0
   Wait: 2
@@ -93,159 +63,8 @@ js_config:
   Env: jd_wxShopFollowActivity_activityUrl
   KeyWord:
   - - jd_wxShopFollowActivity_activityUrl
-  - - jd_wx_shopFollow_id
-  - - jd_wx_followshop
   Name: 【抽奖】关注店铺抽奖
   Script: jd_wxShopFollowActivity.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_mhurlLis
-  KeyWord:
-  - - jd_mhurlLis
-  Name: 【抽奖】盲盒抽京豆
-  Script: jd_mhtask.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_nzmhurl
-  KeyWord:
-  - - jd_nzmhurl
-  Name: 【抽奖】女装盲盒抽京豆
-  Script: jd_nzmh.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: DPLHTY
-  KeyWord:
-  - - DPLHTY
-  Name: 【开卡】大牌联合
-  Script: jd_opencardLH.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_cjhydz_microDz_Id
-  KeyWord:
-  - - jd_wdz_activityId
-  - - jd_cjhydz_microDz_Id
-  Name: 【Faker】微定制
-  Script: jd_cjhydz_microDz.js
-  TimeOut: 0
-  Wait: 10
-- Container:
-  - []
-  Env: JD_JOYOPEN
-  KeyWord:
-  - - JD_JOYOPEN
-  Name: 【开卡】JoyJd任务脚本
-  Script: jd_opencard_joyopen.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_openLuckBag_Id
-  KeyWord:
-  - - jd_wdz_openLuckBag_activityId
-  - - jd_openLuckBag_Id
-  Name: 【开卡】微定制-开福袋
-  Script: jd_openLuckBag.js
-  TimeOut: 0
-  Wait: 5
-- Container:
-  - []
-  Env: DPQDTK
-  KeyWord:
-  - - DPQDTK
-  - - jd_shopSign_investigate_id
-  Name: 【签到】店铺签到
-  Script: jd_dpqd.js
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jinggengInviteJoin
-  KeyWord:
-  - - jinggengInviteJoin
-  Name: 【船长】邀请入会有礼
-  Script: jd_jinggengInvite.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_inv_authorCode
-  KeyWord:
-  - - jd_inv_authorCode
-  - - yhyauthorCode
-  Name: 【船长】邀请赢大礼
-  Script: jd_inviteFriendsGift.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wxShopGiftId
-  KeyWord:
-  - - jd_wxShopGiftId
-  Name: 【船长】特效关注有礼
-  Script: jd_wxShopGift.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_joinCommonId
-  KeyWord:
-  - - jd_joinCommonId
-  Name: 【船长】通用开卡
-  Script: jd_joinCommon_opencard.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_shopLeagueId
-  KeyWord:
-  - - jd_shopLeagueId
-  Name: 【船长】开卡-shopLeague系列
-  Script: jd_shopLeague_opencard.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_shopCollectGiftId
-  KeyWord:
-  - - jd_shopCollectGiftId
-  Name: 【船长】店铺会员礼包
-  Script: jd_shopCollectGift.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wdz_activityId
-  KeyWord:
-  - - jd_wdz_activityId
-  Name: 【船长】微定制组队
-  Script: jd_wdz.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wxCompleteInfoId
-  KeyWord:
-  - - jd_wxCompleteInfoId
-  - - jd_completeInfoActivity_activityId
-  Name: 【船长】完善信息有礼
-  Script: jd_wxCompleteInfo.py
-  TimeOut: 0
-  Wait: 2
-- Container:
-  - []
-  Env: jd_wxBirthGiftsId
-  KeyWord:
-  - - jd_wxBirthGiftsId
-  Name: 【Faker库】生日礼包
-  Script: jd_wxBirthGifts.py
   TimeOut: 0
   Wait: 2
 - Container:
@@ -1033,5 +852,32 @@ js_config:
   - - jd_sendbeans_url
   Name: 【Faker】翻牌签到
   Script: jd_sendbeans.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_v2_birthday_url
+  KeyWord:
+  - - jd_lzkj_v2_birthday_url
+  Name: 【Faker】生日礼包（超级无线V2）
+  Script: jd_lzkj_v2_birthday.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_v2_perfectInfo_url
+  KeyWord:
+  - - jd_lzkj_v2_perfectInfo_url
+  Name: 【Faker】完善有礼（超级无线V2）
+  Script: jd_lzkj_v2_perfectInfo.js
+  TimeOut: 0
+  Wait: 2
+- Container:
+  - []
+  Env: jd_lzkj_v2_sign_url
+  KeyWord:
+  - - jd_lzkj_v2_sign_url
+  Name: 【Faker】签到有礼（超级无线V2）
+  Script: jd_lzkj_v2_sign.js
   TimeOut: 0
   Wait: 2
