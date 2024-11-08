@@ -881,3 +881,12 @@ js_config:
   Script: jd_lzkj_v2_sign.js
   TimeOut: 0
   Wait: 2
+- Container:
+  - []
+  Env: jd_liveLottery_ids
+  KeyWord:
+  - - jd_liveLottery_ids
+  Name: 【Faker】直播互动抽奖
+  Script: jd_liveLottery.js
+  TimeOut: 0
+  Wait: 2
